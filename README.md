@@ -10,7 +10,7 @@ This repository enlists all the API endpoints of the Researchaide Project.
 }
 ```
 
-Paper
+### Paper
 ```
 {
     title: { String, required },
@@ -46,4 +46,7 @@ Base url: **https://researchaide-backend.herokuapp.com/api/v1**
 
 ### College
 
-> GET 
+#### GET '/'
+Admin authentication and JWT token required.
+
+##### Response
